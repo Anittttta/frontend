@@ -25,4 +25,4 @@ jobs:
           context: .
           file: Dockerfile.dev
           push: true
-          tags: ghcr.io/${{ github.repository }}:dev
+          tags: ghcr.io/${{ github.repository | toLowerCase }}:dev
